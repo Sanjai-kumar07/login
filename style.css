@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(login\ backgound.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container
+{   
+    background-color: transparent;
+    border: 2px white solid;
+    height: 95vh;
+    width: 400px;
+    color: white;
+}
+#loginform
+{
+    margin-left: 25%;
+}
+label
+{
+    display: block;
+    font-size: 20px;
+}
+input
+{
+    padding: 12px 25px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+input[type="submit"]
+{
+    color: white;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 15%;
+   
+}
+#loginform a
+{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    text-shadow: -6px -1px 3px rgba(0, 0, 0, 0.6);
+}
+.name_error,.email_error,.password_error,.age_error,.contact_error,.message_error,.email_errors
+{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
